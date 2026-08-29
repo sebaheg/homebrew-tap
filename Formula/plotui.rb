@@ -1,25 +1,25 @@
 class Plotui < Formula
   desc "Plot data from stdin or files as real terminal pixels (Kitty graphics): line, scatter, bar."
   homepage "https://plotui.xyz"
-  version "0.4.1"
+  version "0.4.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/sebaheg/plotui/releases/download/v0.4.1/plotui-aarch64-apple-darwin.tar.xz"
-      sha256 "249e4c3d8bd992d476200f130543ec05d80769e1c8aec6ebf42ba73e06787d0e"
+      url "https://github.com/sebaheg/plotui/releases/download/v0.4.2/plotui-aarch64-apple-darwin.tar.xz"
+      sha256 "814379283bdad50276e33c321a9536f90ddb7bfbce805df24f914015175565eb"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sebaheg/plotui/releases/download/v0.4.1/plotui-x86_64-apple-darwin.tar.xz"
-      sha256 "371c735e6a597e8230268e76882d05123190d6196bd76c6f22b3f99f0816c29b"
+      url "https://github.com/sebaheg/plotui/releases/download/v0.4.2/plotui-x86_64-apple-darwin.tar.xz"
+      sha256 "e805b3fc9b8b584e273404f3f34a09a74c9b778989dda9dedc4ba2970c55ae96"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/sebaheg/plotui/releases/download/v0.4.1/plotui-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "cc50b7d2932e579fc2ad368e29a9a517c011c18a628835691cc57cf967b2d7bc"
+      url "https://github.com/sebaheg/plotui/releases/download/v0.4.2/plotui-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "de94ba3ab25f6584424756eef41aaf8bce8e3343fcb4808110ced4342b1db1d4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sebaheg/plotui/releases/download/v0.4.1/plotui-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d3e6041ff3325c6aa5068c1dd121968967decd521ae54bcfe8ee25c71762a3cb"
+      url "https://github.com/sebaheg/plotui/releases/download/v0.4.2/plotui-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "f6f8214d56a7519af70963ba07141208eb348427bb657a309fbad79e934a4849"
     end
   end
   license "MIT"
